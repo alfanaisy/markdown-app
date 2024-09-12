@@ -1,0 +1,40 @@
+.editor-wrapper {
+  width: 40vw;
+  box-sizing: border-box;
+}
+
+.tools {
+  background-color: #4aa3a3;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  border: 1px solid black;
+  border-bottom: none;
+  font-weight: bold;
+}
+.tools p {
+  padding: 0;
+  margin: 0;
+}
+.tools svg {
+  cursor: pointer;
+}
+
+#editor {
+  min-height: 20vh;
+  box-sizing: border-box;
+  padding: 4px;
+  margin: 0;
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+.fullscreen {
+  height: 100vh;
+}
